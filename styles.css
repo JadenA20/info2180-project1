@@ -10,7 +10,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px auto 50px;
+    grid-template-rows: 70px auto 50px;
     grid-gap: 25px;
 }
 
@@ -72,6 +72,11 @@ ul {
 .learn-about .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px auto 50px;
+    grid-template-rows: 250px auto 50px;
     grid-gap: 25px;
+}
+
+.learn-about .card {
+    display: flex;
+    flex-direction: row;
 }
