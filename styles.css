@@ -43,7 +43,14 @@ ul {
     grid-row-start: 1;
     grid-row-end: 2;
     font-size: 18px;
+}
+
+ul li {
     color: #6b7280;
+}
+
+ul li:hover {
+    color: #5A67D8;
 }
 
 .overview-hero .container {
@@ -72,7 +79,8 @@ ul {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
-   grid-row-end: 2;
+    grid-row-end: 2;
+    background-color: #E2E8F0;
 }
 
 .learn-about .container {
@@ -80,6 +88,10 @@ ul {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 30px auto 50px;
     grid-gap: 25px;
+}
+
+h2 {
+    background-color: #48BB78;
 }
 
 .learn-about .cards {
