@@ -69,7 +69,10 @@ ul {
    grid-row-end: 2;
 }
 
-
+.learn-about .container {
+    max-width: 960px;
+    margin: 0;
+}
 .learn-about .cards {
     width: 100%;
     display: grid;
