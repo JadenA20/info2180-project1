@@ -87,8 +87,36 @@ ul {
     align-items: start;    
 }
 
-
 .learn-about .card {
     max-width: 300px; 
     text-align: center; 
+}
+
+.testing .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100px auto 50px;
+    grid-gap: 25px;
+}
+
+.testing .testing-desciption {
+    display: flex;          
+    justify-content: flex-start;
+    margin: 0;
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.testing .cta {
+    display: flex;          
+    justify-content: flex-end; 
+    margin: 0;
+    padding: 15px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+   grid-row-end: 2;
 }
