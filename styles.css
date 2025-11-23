@@ -40,3 +40,31 @@ ul {
   grid-row-end: 2;
 }
 
+.overview-hero .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px auto 50px;
+    grid-gap: 25px;
+}
+
+.overview-hero overview-hero-image {
+    display: flex;          
+    justify-content: flex-start;
+    margin: 0;
+    padding: 15px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.overview-hero overview-hero-text {
+    display: flex;          
+    justify-content: flex-end; 
+    margin: 0;
+    padding: 15px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+   grid-row-end: 2;
+}
