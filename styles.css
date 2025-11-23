@@ -78,6 +78,6 @@ ul {
 
 .learn-about .cards {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    grid-column: span 1;
 }
