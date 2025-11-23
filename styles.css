@@ -72,7 +72,7 @@ ul {
 .learn-about .container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 400px auto 50px;
+    grid-template-rows: 30px auto 50px;
     grid-gap: 25px;
 }
 
