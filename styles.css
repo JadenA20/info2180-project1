@@ -70,8 +70,10 @@ ul {
 }
 
 .learn-about .container {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 350px auto 50px;
     grid-gap: 25px;
 }
 
