@@ -69,16 +69,11 @@ ul {
    grid-row-end: 2;
 }
 
-.learn-about .container {
+
+.learn-about .cards {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 350px auto 50px;
     grid-gap: 25px;
-}
-
-.learn-about .cards {
-    display: flex;
-    justify-content: center;
-    grid-column: span 1;
 }
