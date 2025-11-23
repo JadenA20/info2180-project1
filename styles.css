@@ -60,7 +60,7 @@ ul li:hover {
     grid-gap: 25px;
 }
 
-.overview-hero overview-hero-image {
+.overview-hero .overview-hero-image {
     display: flex;          
     justify-content: flex-start;
     margin: 0;
@@ -71,7 +71,7 @@ ul li:hover {
     grid-row-end: 2;
 }
 
-.overview-hero overview-hero-text {
+.overview-hero .overview-hero-text {
     display: flex;          
     justify-content: flex-end; 
     margin: 0;
@@ -90,7 +90,7 @@ ul li:hover {
     grid-gap: 25px;
 }
 
-h2 {
+.learn-about h2 {
     background-color: #48BB78;
 }
 
