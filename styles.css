@@ -69,6 +69,12 @@ ul {
    grid-row-end: 2;
 }
 
+.learn-about .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 400px auto 50px;
+    grid-gap: 25px;
+}
 
 .learn-about .cards {
     width: 100%;
