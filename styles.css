@@ -16,15 +16,25 @@ body {
 
 
 h1 {
-    justify-self: start;
+    display: flex;          
+    justify-content: flex-start;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 
 ul {
   display: flex;          
   justify-content: flex-end; 
-  list-style: none;       
+  list-style: none; 
+  gap: 10px;
   margin: 0;
   padding: 0;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
