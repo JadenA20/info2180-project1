@@ -10,7 +10,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px auto 50px;
+    grid-template-rows: 100px auto 50px;
     grid-gap: 25px;
 }
 
@@ -43,7 +43,7 @@ ul {
 .overview-hero .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px auto 50px;
+    grid-template-rows: 100px auto 50px;
     grid-gap: 25px;
 }
 
@@ -67,4 +67,11 @@ ul {
     grid-column-end: 3;
     grid-row-start: 1;
    grid-row-end: 2;
+}
+
+.learn-about .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px auto 50px;
+    grid-gap: 25px;
 }
