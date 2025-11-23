@@ -79,4 +79,5 @@ ul {
 .learn-about .cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
