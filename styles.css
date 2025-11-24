@@ -1,4 +1,8 @@
-/* Add your CSS to this file */
+/*
+Jaden Anthony
+ID: 620164510
+*/
+
 body {
     margin: 0;
     font-size: 18px;
@@ -11,7 +15,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 120px auto 50px;
+    grid-template-rows: 70px auto 50px;
     grid-gap: 25px;
     
 }
@@ -21,7 +25,7 @@ h1 {
     display: flex;          
     justify-content: flex-start;
     margin: 0;
-    padding: 40px;
+    padding: 50px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -37,7 +41,7 @@ ul {
     list-style: none; 
     gap: 10px;
     margin: 0;
-    padding: 15px;
+    padding: 50px;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -64,6 +68,9 @@ ul li a:hover {
     justify-content: space-evenly;
 }
 
+.learn-about {
+    padding: 30px;
+}
 
 .learn-about .container {
     display: grid;
@@ -73,17 +80,18 @@ ul li a:hover {
 }
 
 .learn-about .container h2 {
-    background-color: #48BB78;
+    color: #48BB78;
     font-size: 24px;
 }
 
 .learn-about .container h3 {
-    background-color: #48BB78;
+    color: #48BB78;
     font-size: 21px;
 }
 
 .learn-about .cards {
     width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: 350px auto 50px;
@@ -95,7 +103,7 @@ ul li a:hover {
 
 .learn-about .card {
     max-width: 300px; 
-    max-height: 450px;
+    height: 470px;
     text-align: center; 
     border-style: solid;
     border-width: 5px;
@@ -104,44 +112,89 @@ ul li a:hover {
     box-shadow: 5px 5px;
 }
 
+.testing {
+    background-color: #4A5568;
+    padding: 30px;
+    color: white;
+}
+
 .testing .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 150px auto 50px;
-    grid-gap: 25px;
+    display: flex;
+    gap: 80px;
+    justify-content: space-evenly;
 }
 
-.testing .testing-desciption {
-    display: flex;          
-    justify-content: flex-start;
-    margin: 0;
-    padding: 15px;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
+.testing .container .cta .btn {
+    background-color: #48BB78;
+    border-radius: 5px;
 }
 
-.testing .cta {
-    display: flex;          
-    justify-content: flex-end; 
-    margin: 0;
-    padding: 15px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-   grid-row-end: 2;
+.stories {
+    height:650px;
 }
 
 .stories .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px auto 50px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 30px auto 50px;
     grid-gap: 25px;
 }
 
-article {
+.stories .container h2 {
+    color: #5A67D8;
+}
+
+.stories .container h3 {
+    font-size: 18px;
+}
+
+.stories .container article  {
     display: flex;
-    justify-content: center;
     align-items: flex-start;
+    margin-bottom: 20px; 
+    gap: 50px;
+}
+
+.stories .container article img {
+    margin-right: 15px;         
+    flex-shrink: 0;  
+    border-radius: 50%;
+    border-color: #E2E8F0;
+}
+
+.article-body a {
+    color: #5A67D8;
+}
+
+.newsletter {
+    padding: 20px;
+    background-color: #48BB78;
+    color: white;
+    height: 220px;
+}
+
+.newsletter .container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 10px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.newsletter .container .btn {
+    background-color: #5A67D8;
+}
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    height: 100px;
 }
