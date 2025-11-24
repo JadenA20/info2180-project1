@@ -72,9 +72,14 @@ ul li a:hover {
     grid-gap: 25px;
 }
 
-.learn-about h2 {
+.learn-about .container h2 {
     background-color: #48BB78;
     font-size: 24px;
+}
+
+.learn-about .container h3 {
+    background-color: #48BB78;
+    font-size: 21px;
 }
 
 .learn-about .cards {
@@ -90,11 +95,13 @@ ul li a:hover {
 
 .learn-about .card {
     max-width: 300px; 
+    max-height: 450px;
     text-align: center; 
     border-style: solid;
     border-width: 5px;
     border-color: #E2E8F0;
     border-radius: 5px;
+    box-shadow: 5px 5px;
 }
 
 .testing .container {
