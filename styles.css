@@ -11,7 +11,7 @@ body {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 120px auto 50px;
+    grid-template-rows: 70px auto 50px;
     grid-gap: 25px;
     
 }
@@ -21,7 +21,7 @@ h1 {
     display: flex;          
     justify-content: flex-start;
     margin: 0;
-    padding: 40px;
+    padding: 50px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -37,7 +37,7 @@ ul {
     list-style: none; 
     gap: 10px;
     margin: 0;
-    padding: 15px;
+    padding: 50px;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -95,7 +95,7 @@ ul li a:hover {
 
 .learn-about .card {
     max-width: 300px; 
-    max-height: 450px;
+    max-height: 550px;
     height: 100%;
     text-align: center; 
     border-style: solid;
@@ -106,19 +106,13 @@ ul li a:hover {
 }
 
 .testing {
-    background-color: ##4A5568;
+    background-color: #4A5568;
     padding: 20px;
-    color:
+    color: white;
 }
 
-.testing .container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 150px auto 50px;
-    grid-gap: 25px;
-}
 
-.testing .testing-desciption {
+/* .testing .testing-desciption {
     display: flex;          
     justify-content: flex-start;
     margin: 0;
@@ -138,6 +132,12 @@ ul li a:hover {
     grid-column-end: 3;
     grid-row-start: 1;
    grid-row-end: 2;
+}
+*/
+.testing .container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
 }
 
 .stories .container {
