@@ -53,6 +53,10 @@ ul li a:hover {
     color: #5A67D8;
 }
 
+.overview {
+    background-color: #E2E8F0;
+}
+
 .overview-hero .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -70,14 +74,12 @@ ul li a:hover {
 }
 
 .overview-hero .overview-hero-text {
-    background-color: #E2E8F0;
     display: flex;          
     justify-content: flex-end; 
     margin: 0;
     padding: 15px;
     flex-direction: column;
     height: 100%;
-    
 }
 
 .learn-about .container {
@@ -89,6 +91,7 @@ ul li a:hover {
 
 .learn-about h2 {
     background-color: #48BB78;
+    font-size: 24px;
 }
 
 .learn-about .cards {
