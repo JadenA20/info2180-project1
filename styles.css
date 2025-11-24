@@ -73,12 +73,12 @@ ul li a:hover {
 }
 
 .learn-about .container h2 {
-    background-color: #48BB78;
+    color: #48BB78;
     font-size: 24px;
 }
 
 .learn-about .container h3 {
-    background-color: #48BB78;
+    color: #48BB78;
     font-size: 21px;
 }
 
@@ -96,12 +96,19 @@ ul li a:hover {
 .learn-about .card {
     max-width: 300px; 
     max-height: 450px;
+    height: 100%;
     text-align: center; 
     border-style: solid;
     border-width: 5px;
     border-color: #E2E8F0;
     border-radius: 5px;
     box-shadow: 5px 5px;
+}
+
+.testing {
+    background-color: ##4A5568;
+    padding: 20px;
+    color:
 }
 
 .testing .container {
