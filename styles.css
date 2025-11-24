@@ -158,6 +158,7 @@ ul li a:hover {
     margin-right: 15px;         
     flex-shrink: 0;  
     border-radius: 50%;
+    border-color: black;
 }
 
 .article-body a {
@@ -174,11 +175,14 @@ ul li a:hover {
 
 .newsletter .container .btn {
     background-color: #5A67D8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
     background-color: #4A5568;
     color: white;
-    display: flex;
-    flex-direction: column;
+    height: 100px;
 }
