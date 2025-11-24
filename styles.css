@@ -123,11 +123,16 @@ ul li a:hover {
     border-radius: 5px;
 }
 
+.stories {
+    height:700px;
+}
+
 .stories .container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 30px auto 50px;
     grid-gap: 25px;
+    padding: 40 px;
 }
 
 .stories .container h2 {
