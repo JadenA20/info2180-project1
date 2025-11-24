@@ -53,11 +53,12 @@ ul li a:hover {
     color: #5A67D8;
 }
 
-.overview-hero .container {
+.overview-hero {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 100px auto 50px;
     grid-gap: 25px;
+    align-items: stretch;
 }
 
 .overview-hero .overview-hero-image {
