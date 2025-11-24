@@ -1,3 +1,6 @@
+//Jaden Anthony
+//ID: 620164510
+
 document.addEventListener("DOMContentLoaded", function() {
   const form = document.querySelector(".newsletter form");
   const emailInput = document.getElementById("email");
