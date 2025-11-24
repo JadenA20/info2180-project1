@@ -129,7 +129,6 @@ ul li a:hover {
 
 .stories {
     height:650px;
-    padding:30px;
 }
 
 .stories .container {
@@ -137,7 +136,7 @@ ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 30px auto 50px;
     grid-gap: 25px;
-    padding: 40 px;
+    padding: 40px;
 }
 
 .stories .container h2 {
@@ -174,6 +173,7 @@ ul li a:hover {
     gap: 20px; 
     background-color: #48BB78;
     color: white;
+    height: 350px;
 }
 
 .newsletter form {
