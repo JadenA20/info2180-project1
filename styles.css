@@ -64,6 +64,9 @@ ul li a:hover {
     justify-content: space-evenly;
 }
 
+.learn-about {
+    padding: 30px;
+}
 
 .learn-about .container {
     display: grid;
@@ -107,7 +110,7 @@ ul li a:hover {
 
 .testing {
     background-color: #4A5568;
-    padding: 20px;
+    padding: 30px;
     color: white;
    
 }
@@ -124,7 +127,8 @@ ul li a:hover {
 }
 
 .stories {
-    height:700px;
+    height:650px;
+    padding:30px;
 }
 
 .stories .container {
@@ -139,6 +143,10 @@ ul li a:hover {
     color: #5A67D8;
 }
 
+.storiess .container h3 {
+    font-size: 18px;
+}
+
 .stories .container article  {
     display: flex;
     align-items: flex-start;
@@ -149,6 +157,7 @@ ul li a:hover {
 .stories .container article img {
     margin-right: 15px;         
     flex-shrink: 0;  
+    border-radius: 50%;
 }
 
 .article-body a {
@@ -170,4 +179,6 @@ ul li a:hover {
 footer {
     background-color: #4A5568;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
