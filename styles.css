@@ -147,13 +147,20 @@ ul li a:hover {
 
 .stories .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px auto 50px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 30px auto 50px;
     grid-gap: 25px;
 }
 
-article {
+.stories .container h2 {
+    color: #5A67D8;
+}
+
+.stories .container .article  {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+.article-body a {
+    color: #5A67D8;
 }
