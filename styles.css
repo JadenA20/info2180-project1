@@ -96,7 +96,7 @@ ul li a:hover {
 
 .learn-about .card {
     max-width: 300px; 
-    height: 550px;
+    height: 470px;
     text-align: center; 
     border-style: solid;
     border-width: 5px;
@@ -109,7 +109,7 @@ ul li a:hover {
     background-color: #4A5568;
     padding: 20px;
     color: white;
-    height: 700px;
+   
 }
 
 
@@ -151,6 +151,7 @@ ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 30px auto 50px;
     grid-gap: 25px;
+    height: 700px;
 }
 
 .stories .container h2 {
