@@ -78,6 +78,7 @@ ul li a:hover {
 .learn-about .container h2 {
     color: #48BB78;
     font-size: 24px;
+    padding: 30px;
 }
 
 .learn-about .container h3 {
@@ -141,6 +142,7 @@ ul li a:hover {
 
 .stories .container h2 {
     color: #5A67D8;
+    padding: 30px;
 }
 
 .storiess .container h3 {
@@ -167,18 +169,20 @@ ul li a:hover {
 
 .newsletter {
     display: flex;
-    gap: 40px;
-    justify-content: space-evenly;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 20px; 
     background-color: #48BB78;
     color: white;
 }
 
+.newsletter form {
+    display: flex;
+    flex-direction: row;
+}
+
 .newsletter .container .btn {
     background-color: #5A67D8;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 footer {
