@@ -76,6 +76,7 @@ ul li:hover {
     justify-content: flex-end; 
     margin: 0;
     padding: 15px;
+    flex-direction: column;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
