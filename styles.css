@@ -55,33 +55,15 @@ ul li a:hover {
 
 .overview-hero {
     background-color: #E2E8F0;
-    padding: 40px;
+    padding: 20px;
 }
 
 .overview-hero .container {
     display: flex;
     gap: 40px;
-    justify-content: space-around;
-    align-items: stretch;
+    justify-content: space-evenly;
 }
 
-/* .overview-hero .overview-hero-image {
-    display: flex;          
-    justify-content: flex-start;
-    margin: 0;
-    padding: 15px;
-    height: 100%;
-}
-
-.overview-hero .overview-hero-text {
-    display: flex;          
-    justify-content: flex-end; 
-    margin: 0;
-    padding: 15px;
-    flex-direction: column;
-    height: 100%;
-}
-*/
 
 .learn-about .container {
     display: grid;
@@ -109,6 +91,10 @@ ul li a:hover {
 .learn-about .card {
     max-width: 300px; 
     text-align: center; 
+    border-style: solid;
+    border-width: 5px;
+    border-color: #E2E8F0;
+    border-radius: 5px;
 }
 
 .testing .container {
