@@ -156,11 +156,17 @@ ul li a:hover {
     color: #5A67D8;
 }
 
-.stories .container .article  {
+.stories .container article  {
     display: flex;
-    justify-content: center;
     align-items: flex-start;
+    margin-bottom: 20px; 
 }
+
+.stories .container article img {
+    margin-right: 15px;         
+    flex-shrink: 0;  
+}
+
 .article-body a {
     color: #5A67D8;
 }
