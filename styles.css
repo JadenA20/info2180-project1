@@ -165,14 +165,17 @@ ul li a:hover {
 }
 
 .newsletter {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;    
-    gap: 20px; 
     padding: 20px;
     background-color: #48BB78;
     color: white;
     height: 220px;
+}
+
+.newsletter .container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 20px;
 }
 
 .newsletter form {
